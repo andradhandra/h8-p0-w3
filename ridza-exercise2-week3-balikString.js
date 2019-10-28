@@ -11,4 +11,4 @@ console.log(balikString("kasur"));
 console.log(balikString("rusak"));
 console.log(balikString("kasur rusak"));
 console.log(balikString("tebet"));
-console.log(balikString("sop"));
+console.log(balikString("hello world!"));
