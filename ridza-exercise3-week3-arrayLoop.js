@@ -1,7 +1,7 @@
 
 function dataHandling (input) {
     var cetak ="";
-   
+    
     for (i=0; i<input.length; i++) {
         cetak += `Nomor ID: ${input[i][0]}\nNama lengkap: ${input[i][1]}\nTTL: ${input[i][2]}, ${input[i][3]}\nHobi: ${input[i][4]}\n\n`;
     } return cetak;
