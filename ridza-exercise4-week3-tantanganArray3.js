@@ -11,6 +11,7 @@ function dataHandling2 (input) {
     //console.log(tanggal);
 
     //Perubahan bulan angka jd nama bulan
+    //asumsi pebruari 30 hari
     if (tanggal[0] < 31) {
         switch (tanggal[1]) {
             case '01': tanggal[1] = 'Januari'; break;
@@ -43,13 +44,13 @@ function dataHandling2 (input) {
       tanggal[0] = ''; tanggal[1] = ''; tanggal[2] = '';
       console.log('Penanggalan yang Anda masukan tidak valid!');
     } console.log(tanggal[1]);
-    console.log(tgl+"s");
+  
 
     //sort tanggal descending
     tgl.sort(function(a, b) {return b - a});
     console.log(tgl);
 
-    
+    //gabungn haisl split
     tgl2= tgl2.join('-');
     console.log(tgl2);
 
