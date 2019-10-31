@@ -1,6 +1,6 @@
 function tentukanDeretAritmatika(arr) {
     // you can only write your code here!
-    var a = []
+    
     for (var i=arr.length-1; i>0; i--) {
         var bukti = arr[i] - arr[i-1];
         if (bukti != (arr[arr.length-1]-arr[arr.length-2])) {
