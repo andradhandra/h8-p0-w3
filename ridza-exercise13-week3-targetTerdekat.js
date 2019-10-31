@@ -12,7 +12,7 @@ function targetTerdekat(arr) {
         } else if (arr[i] === "x") {
             mark.push(i);
         }
-    }  //return mark;
+    } 
 
     //menentukan jarak
     if (mark[0] == null) {
