@@ -3,6 +3,7 @@ function targetTerdekat(arr) {
 
 
     //Diasumsikan hanya terdapaat satu 'o' dan tidak ada 'o' diantara dua 'x'
+    
     //mencatat nilai index 'o' dan 'x'
     var target;
     var mark = [];
